@@ -1,0 +1,17 @@
+Package: com.c1d3r.PullOverPro
+Name: PullOver Pro
+Version: 2.1.1
+Description: A better way to multitask!
+Section: Tweaks
+Depends: firmware (>= 10.0), mobilesubstrate, com.rpetrich.rocketbootstrap, applist
+Conflicts:
+Replaces:
+Priority: optional
+Architecture: iphoneos-arm
+Author: c1d3r
+dev: c1d3r
+Homepage:
+Depiction: https://c1d3r.com/repo/depictions/?p=com.c1d3r.pulloverpro
+Maintainer: c1d3r <c1d3rdev@gmail.com>
+Icon:
+

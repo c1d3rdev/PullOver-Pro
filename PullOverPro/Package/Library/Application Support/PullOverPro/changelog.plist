@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>2.1.1</key>
+	<dict>
+		<key>🐛 Fixed BundleID Bugs</key>
+		<string>Fixed a bug that would cause the wrong app to show up if it had a similar bundle ID.</string>
+		<key>✨ Auto-Nubbing</key>
+		<string>Have the handle automatically nub after a certain amount of time!</string>
+	</dict>
+	<key>2.0b5</key>
+	<dict>
+		<key>🐛 Fixed Reversed Keyboard Bug (again)</key>
+		<string>With left handed mode enabled, on iOS 13, the keyboard would be reversed, which is bad for so many reasons... Like good luck typing on that!</string>
+	</dict>
+	<key>2.0b4</key>
+	<dict>
+		<key>🌙 Dark Mode Fix (pre iOS 13)</key>
+		<string>Fixed a dark mode/light mode bug which affected pre iOS 13 users, causing the light mode to be grey.</string>
+		<key>⌨️ Full Screen Keyboard Toggle (iOS 13)</key>
+		<string>On iOS 13, you can now decide whether or not you would like the fullscreen keyboard, or for it to remain in the PullOver view.</string>
+		<key>✨Keyboard Avoiding Toggle</key>
+		<string>Added a new feature which makes the PullOver handle avoid the keyboard if they are overlapping.</string>
+		<key>🐛 Fixed Landscape Layout Bug</key>
+		<string>Though landscape is not officially supported, if you have orientation lock on and are using a forced landscape application, it will display the PullOver application in portrait.</string>
+		<key>🐛 Hides Activity Indicator</key>
+		<string>The activity indicator will now hide once hosting is completed.</string>
+	</dict>
+	<key>2.0b3</key>
+	<dict>
+		<key>👤 Credited @akusio_RR</key>
+		<string>@akusio_RR shared some info which helped with iOS 13 support! They have been added to the credits in the settings. Make sure you give them a follow!</string>
+		<key>✨ Haptic Feedback Toggle</key>
+		<string>I added a toggle for haptic feedback, for users who were not interested in using it.</string>
+		<key>⌛ Added an Activity Indicator</key>
+		<string>Added an activity indicator, so you know it&apos;s trying to do something.</string>
+		<key>🐛 Fixed Persistent Layers</key>
+		<string>Fixed a bug where the keyboard would not return to its respective owner&apos;s context, causing it to not work correctly.</string>
+		<key>🐛 Fixed Re-Hosting Bug</key>
+		<string>Fixed a bug where if you re-open the PullOver window right after closing it would fail to re-host.</string>
+		<key>🐛 Fixed Reversed Keyboard Bug</key>
+		<string>With left handed mode enabled, on iOS 13, the keyboard would be reversed, which is bad for so many reasons... Like good luck typing on that!</string>
+	</dict>
+	<key>2.0</key>
+	<dict>
+		<key>🎉 iOS 13 Support</key>
+		<string>Yay! It&apos;s here!</string>
+		<key>📝 I Made This</key>
+		<string>This is the new change log, which works independently of package manager. This is where I&apos;ll tell you what I did in this version!</string>
+		<key>✨ Persistent Nubbing</key>
+		<string>If you minimize the PullOver handle (by swipping it offscreen with gusto!), it&apos;ll remember that after a respring and remain nubbed</string>
+		<key>🌙 Dark Mode</key>
+		<string>In addition to the grabber/handle supporting dark mode, the rest of the tweak does now, including the content view.</string>
+	</dict>
+</dict>
+</plist>

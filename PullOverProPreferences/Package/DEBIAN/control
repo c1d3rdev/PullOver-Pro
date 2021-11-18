@@ -1,0 +1,17 @@
+Package: com.c1d3r.PullOverProPreferences
+Name: PullOverProPreferences
+Version: 1.0-1
+Description: 
+Section: PreferenceBundles
+Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm
+Author: Will Smillie
+dev: 
+Homepage: 
+Depiction: 
+Maintainer: 
+Icon: 
+

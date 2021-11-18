@@ -1,0 +1,942 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		531E10E1618A85A6A18FD9B3 /* libPods-PullOverPro.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FFA0C82E36BA8A0BD5D40C6 /* libPods-PullOverPro.a */; };
+		C715168B225BC4000021ADB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C715168A225BC4000021ADB8 /* Foundation.framework */; };
+		C7151696225BC4000021ADB8 /* PullOverPro.mm in Sources */ = {isa = PBXBuildFile; fileRef = C7151695225BC4000021ADB8 /* PullOverPro.mm */; };
+		C71516A3225BC55F0021ADB8 /* PullOverWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C71516A1225BC55F0021ADB8 /* PullOverWindow.m */; };
+		C71516A8225BC62B0021ADB8 /* BaseScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C71516A6225BC62B0021ADB8 /* BaseScrollView.m */; };
+		C71516AC225BC6500021ADB8 /* PullOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C71516AA225BC6500021ADB8 /* PullOverViewController.m */; };
+		C71516B1225BC7800021ADB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C71516B0225BC7800021ADB8 /* UIKit.framework */; };
+		C71516B3225BC7A00021ADB8 /* libsubstrate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C71516B2225BC7A00021ADB8 /* libsubstrate.dylib */; };
+		C71516B7225BDD6A0021ADB8 /* QuickSwitchTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C71516B5225BDD6A0021ADB8 /* QuickSwitchTableView.m */; };
+		C71516B9225BE35E0021ADB8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C71516B8225BE35D0021ADB8 /* AudioToolbox.framework */; };
+		C71516BB225BE3A20021ADB8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C71516BA225BE3A20021ADB8 /* CoreGraphics.framework */; };
+		C71516BE225BF12C0021ADB8 /* POApplicationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = C71516BC225BF12C0021ADB8 /* POApplicationHelper.h */; };
+		C71516BF225BF12C0021ADB8 /* POApplicationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C71516BD225BF12C0021ADB8 /* POApplicationHelper.m */; };
+		C71516C7225BFEFD0021ADB8 /* QuickSwitchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C71516C5225BFEFD0021ADB8 /* QuickSwitchTableViewCell.m */; };
+		C71516CE225C1C700021ADB8 /* ContextHostManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C71516C8225C1AA10021ADB8 /* ContextHostManager.h */; };
+		C71516D9225C676A0021ADB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C715168A225BC4000021ADB8 /* Foundation.framework */; };
+		C71516DA225C676A0021ADB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C71516B0225BC7800021ADB8 /* UIKit.framework */; };
+		C71516E6225C676A0021ADB8 /* PullOverProPreferencesController.h in Headers */ = {isa = PBXBuildFile; fileRef = C71516E5225C676A0021ADB8 /* PullOverProPreferencesController.h */; };
+		C71516E8225C676A0021ADB8 /* PullOverProPreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = C71516E7225C676A0021ADB8 /* PullOverProPreferencesController.m */; };
+		C715170B225C72770021ADB8 /* POHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = C71516AD225BC6C00021ADB8 /* POHandle.m */; };
+		C7151715225C73440021ADB8 /* POApplicationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C71516BD225BF12C0021ADB8 /* POApplicationHelper.m */; };
+		C71B3149242A9D1F00515A83 /* libMobileGestalt.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C71B3148242A9D1500515A83 /* libMobileGestalt.tbd */; };
+		C72445E1225D3743001E1330 /* QSFavoritesPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C72445E0225D3743001E1330 /* QSFavoritesPickerController.m */; };
+		C72445E2225D3967001E1330 /* libapplist.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C71516C1225BF14F0021ADB8 /* libapplist.dylib */; };
+		C72445E4225D480B001E1330 /* POStepperTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C72445E3225D480B001E1330 /* POStepperTableCell.m */; };
+		C72445FB225FEC04001E1330 /* POApplicationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = C71516BC225BF12C0021ADB8 /* POApplicationHelper.h */; };
+		C774843F2496A7EF00272DB5 /* POTimeStepperTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C774843E2496A7EF00272DB5 /* POTimeStepperTableCell.m */; };
+		C77E05E0229B2B5E003A59C9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77E05DF229B2B5E003A59C9 /* QuartzCore.framework */; };
+		C77E05E1229B2B62003A59C9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77E05DF229B2B5E003A59C9 /* QuartzCore.framework */; };
+		C7A168DB23B126B100451FA7 /* ContextInterfaces.h in Headers */ = {isa = PBXBuildFile; fileRef = C7A168DA23B126B100451FA7 /* ContextInterfaces.h */; };
+		C7CE0D42242A9EE700564335 /* libMobileGestalt.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CE0D41242A9EE600564335 /* libMobileGestalt.tbd */; };
+		C7E341E7227762CB00A7A722 /* Preferences.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7E341E6227762CB00A7A722 /* Preferences.framework */; };
+		C7E341E92277674300A7A722 /* POScaleStepperTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E341E82277674300A7A722 /* POScaleStepperTableCell.m */; };
+		C7E559C7238B5FA500B70489 /* ContextHostManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = C71516C9225C1AA10021ADB8 /* ContextHostManager.mm */; };
+		C7EF5BEA2295BD91007AA331 /* libEnclave.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EF5BE82295BD85007AA331 /* libEnclave.a */; };
+		D42216A60E43FA32DFC7C67B /* libPods-PullOverProPreferences.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4ECA1F06C765737D9B1210C /* libPods-PullOverProPreferences.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C71516FD225C679D0021ADB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C715167D225BC4000021ADB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C71516D7225C676A0021ADB8;
+			remoteInfo = PullOverProPreferences;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42BB550D5737D12BE98A8F50 /* Pods-PullOverProPreferences.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PullOverProPreferences.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PullOverProPreferences/Pods-PullOverProPreferences.debug.xcconfig"; sourceTree = "<group>"; };
+		4907E91354C8E3C5F9D46441 /* Pods-PullOverProPreferences.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PullOverProPreferences.release.xcconfig"; path = "Pods/Target Support Files/Pods-PullOverProPreferences/Pods-PullOverProPreferences.release.xcconfig"; sourceTree = "<group>"; };
+		8FFA0C82E36BA8A0BD5D40C6 /* libPods-PullOverPro.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PullOverPro.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A55CF5F79F6C1AED786C4355 /* Pods-PullOverPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PullOverPro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PullOverPro/Pods-PullOverPro.debug.xcconfig"; sourceTree = "<group>"; };
+		B37C22E496A4E3DD99801C4D /* Pods-PullOverPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PullOverPro.release.xcconfig"; path = "Pods/Target Support Files/Pods-PullOverPro/Pods-PullOverPro.release.xcconfig"; sourceTree = "<group>"; };
+		C7047D27238EFF28008BAA45 /* changelog.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = changelog.plist; sourceTree = "<group>"; };
+		C7151687225BC4000021ADB8 /* PullOverPro.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = PullOverPro.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		C715168A225BC4000021ADB8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C715168F225BC4000021ADB8 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		C7151690225BC4000021ADB8 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		C7151692225BC4000021ADB8 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		C7151693225BC4000021ADB8 /* PullOverPro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PullOverPro-Prefix.pch"; sourceTree = "<group>"; };
+		C7151694225BC4000021ADB8 /* PullOverPro.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = PullOverPro.xm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		C7151695225BC4000021ADB8 /* PullOverPro.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PullOverPro.mm; sourceTree = "<group>"; };
+		C715169A225BC4000021ADB8 /* PullOverPro.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = PullOverPro.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/PullOverPro.plist; sourceTree = "<group>"; };
+		C71516A0225BC55F0021ADB8 /* PullOverWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PullOverWindow.h; sourceTree = "<group>"; };
+		C71516A1225BC55F0021ADB8 /* PullOverWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PullOverWindow.m; sourceTree = "<group>"; };
+		C71516A5225BC62B0021ADB8 /* BaseScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseScrollView.h; sourceTree = "<group>"; };
+		C71516A6225BC62B0021ADB8 /* BaseScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseScrollView.m; sourceTree = "<group>"; };
+		C71516A9225BC6500021ADB8 /* PullOverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PullOverViewController.h; sourceTree = "<group>"; };
+		C71516AA225BC6500021ADB8 /* PullOverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PullOverViewController.m; sourceTree = "<group>"; };
+		C71516AD225BC6C00021ADB8 /* POHandle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POHandle.m; sourceTree = "<group>"; };
+		C71516AE225BC6C00021ADB8 /* POHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POHandle.h; sourceTree = "<group>"; };
+		C71516B0225BC7800021ADB8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C71516B2225BC7A00021ADB8 /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsubstrate.dylib; path = ../../../../../../../../opt/iOSOpenDev/lib/libsubstrate.dylib; sourceTree = "<group>"; };
+		C71516B4225BDD6A0021ADB8 /* QuickSwitchTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickSwitchTableView.h; sourceTree = "<group>"; };
+		C71516B5225BDD6A0021ADB8 /* QuickSwitchTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickSwitchTableView.m; sourceTree = "<group>"; };
+		C71516B8225BE35D0021ADB8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C71516BA225BE3A20021ADB8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C71516BC225BF12C0021ADB8 /* POApplicationHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POApplicationHelper.h; sourceTree = "<group>"; };
+		C71516BD225BF12C0021ADB8 /* POApplicationHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POApplicationHelper.m; sourceTree = "<group>"; };
+		C71516C1225BF14F0021ADB8 /* libapplist.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libapplist.dylib; path = ../../../../../../../../opt/iOSOpenDev/lib/libapplist.dylib; sourceTree = "<group>"; };
+		C71516C3225BF2350021ADB8 /* headers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = headers.h; sourceTree = "<group>"; };
+		C71516C4225BFEFD0021ADB8 /* QuickSwitchTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickSwitchTableViewCell.h; sourceTree = "<group>"; };
+		C71516C5225BFEFD0021ADB8 /* QuickSwitchTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickSwitchTableViewCell.m; sourceTree = "<group>"; };
+		C71516C8225C1AA10021ADB8 /* ContextHostManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContextHostManager.h; sourceTree = "<group>"; };
+		C71516C9225C1AA10021ADB8 /* ContextHostManager.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = ContextHostManager.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		C71516D8225C676A0021ADB8 /* PullOverProPreferences.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PullOverProPreferences.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C71516DB225C676A0021ADB8 /* Preferences.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Preferences.framework; path = Library/Frameworks/Preferences.framework; sourceTree = DEVELOPER_DIR; };
+		C71516E0225C676A0021ADB8 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		C71516E1225C676A0021ADB8 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		C71516E3225C676A0021ADB8 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		C71516E4225C676A0021ADB8 /* PullOverProPreferences-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PullOverProPreferences-Info.plist"; sourceTree = "<group>"; };
+		C71516E5225C676A0021ADB8 /* PullOverProPreferencesController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PullOverProPreferencesController.h; sourceTree = "<group>"; };
+		C71516E7225C676A0021ADB8 /* PullOverProPreferencesController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PullOverProPreferencesController.m; sourceTree = "<group>"; };
+		C71516EC225C676A0021ADB8 /* PullOverProPreferences.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = PullOverProPreferences.plist; path = Package/Library/PreferenceLoader/Preferences/PullOverProPreferences.plist; sourceTree = "<group>"; };
+		C71516EF225C676A0021ADB8 /* PullOverProPreferences.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = PullOverProPreferences.plist; path = Package/Library/PreferenceBundles/PullOverProPreferences.bundle/PullOverProPreferences.plist; sourceTree = "<group>"; };
+		C71516F0225C676A0021ADB8 /* PullOverProPreferencesIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PullOverProPreferencesIcon.png; path = Package/Library/PreferenceBundles/PullOverProPreferences.bundle/PullOverProPreferencesIcon.png; sourceTree = "<group>"; };
+		C71516F1225C676A0021ADB8 /* PullOverProPreferencesIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PullOverProPreferencesIcon@2x.png"; path = "Package/Library/PreferenceBundles/PullOverProPreferences.bundle/PullOverProPreferencesIcon@2x.png"; sourceTree = "<group>"; };
+		C71516F7225C676A0021ADB8 /* PullOverProPreferences-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PullOverProPreferences-Prefix.pch"; sourceTree = "<group>"; };
+		C71B3148242A9D1500515A83 /* libMobileGestalt.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libMobileGestalt.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libMobileGestalt.tbd; sourceTree = DEVELOPER_DIR; };
+		C72445DF225D3743001E1330 /* QSFavoritesPickerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSFavoritesPickerController.h; sourceTree = "<group>"; };
+		C72445E0225D3743001E1330 /* QSFavoritesPickerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSFavoritesPickerController.m; sourceTree = "<group>"; };
+		C72445E3225D480B001E1330 /* POStepperTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POStepperTableCell.m; sourceTree = "<group>"; };
+		C72445FD22624437001E1330 /* IPC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPC.h; sourceTree = "<group>"; };
+		C774843E2496A7EF00272DB5 /* POTimeStepperTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POTimeStepperTableCell.m; sourceTree = "<group>"; };
+		C77E05DF229B2B5E003A59C9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C7A168DA23B126B100451FA7 /* ContextInterfaces.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextInterfaces.h; sourceTree = "<group>"; };
+		C7A20E5F22664976007D1096 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		C7AE9E83229460CD00116C0E /* librocketbootstrap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = librocketbootstrap.dylib; sourceTree = "<group>"; };
+		C7AE9E84229460CD00116C0E /* libcolorpicker.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libcolorpicker.dylib; sourceTree = "<group>"; };
+		C7AE9E85229460CD00116C0E /* libEnclave.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libEnclave.dylib; sourceTree = "<group>"; };
+		C7AE9E86229460CD00116C0E /* libactivator.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libactivator.dylib; sourceTree = "<group>"; };
+		C7AE9E87229460CD00116C0E /* libpackageinfo.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libpackageinfo.dylib; sourceTree = "<group>"; };
+		C7AE9E88229460CD00116C0E /* libobjcipc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libobjcipc.dylib; sourceTree = "<group>"; };
+		C7AE9E89229460CD00116C0E /* libMobileGestalt.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libMobileGestalt.dylib; sourceTree = "<group>"; };
+		C7AE9E8A229460CD00116C0E /* libapplist.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libapplist.dylib; sourceTree = "<group>"; };
+		C7AE9E8B229460CD00116C0E /* libactionmenu.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libactionmenu.dylib; sourceTree = "<group>"; };
+		C7AE9E8C229460CD00116C0E /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libsubstrate.dylib; sourceTree = "<group>"; };
+		C7CE0D41242A9EE600564335 /* libMobileGestalt.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libMobileGestalt.tbd; path = usr/lib/libMobileGestalt.tbd; sourceTree = SDKROOT; };
+		C7E341E6227762CB00A7A722 /* Preferences.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Preferences.framework; path = ../../../../../../../opt/theos/sdks/iPhoneOS9.3.sdk/System/Library/PrivateFrameworks/Preferences.framework; sourceTree = "<group>"; };
+		C7E341E82277674300A7A722 /* POScaleStepperTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POScaleStepperTableCell.m; sourceTree = "<group>"; };
+		C7EF5BE82295BD85007AA331 /* libEnclave.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libEnclave.a; path = ../../../../../../../opt/iOSOpenDev/lib/libEnclave.a; sourceTree = "<group>"; };
+		F4ECA1F06C765737D9B1210C /* libPods-PullOverProPreferences.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PullOverProPreferences.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7151683225BC4000021ADB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7CE0D42242A9EE700564335 /* libMobileGestalt.tbd in Frameworks */,
+				C77E05E0229B2B5E003A59C9 /* QuartzCore.framework in Frameworks */,
+				C71516BB225BE3A20021ADB8 /* CoreGraphics.framework in Frameworks */,
+				C71516B9225BE35E0021ADB8 /* AudioToolbox.framework in Frameworks */,
+				C71516B3225BC7A00021ADB8 /* libsubstrate.dylib in Frameworks */,
+				C71516B1225BC7800021ADB8 /* UIKit.framework in Frameworks */,
+				C715168B225BC4000021ADB8 /* Foundation.framework in Frameworks */,
+				531E10E1618A85A6A18FD9B3 /* libPods-PullOverPro.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71516D4225C676A0021ADB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77E05E1229B2B62003A59C9 /* QuartzCore.framework in Frameworks */,
+				C7EF5BEA2295BD91007AA331 /* libEnclave.a in Frameworks */,
+				C7E341E7227762CB00A7A722 /* Preferences.framework in Frameworks */,
+				C72445E2225D3967001E1330 /* libapplist.dylib in Frameworks */,
+				C71516D9225C676A0021ADB8 /* Foundation.framework in Frameworks */,
+				C71516DA225C676A0021ADB8 /* UIKit.framework in Frameworks */,
+				D42216A60E43FA32DFC7C67B /* libPods-PullOverProPreferences.a in Frameworks */,
+				C71B3149242A9D1F00515A83 /* libMobileGestalt.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A412DB6D9390BD279B1251BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A55CF5F79F6C1AED786C4355 /* Pods-PullOverPro.debug.xcconfig */,
+				B37C22E496A4E3DD99801C4D /* Pods-PullOverPro.release.xcconfig */,
+				42BB550D5737D12BE98A8F50 /* Pods-PullOverProPreferences.debug.xcconfig */,
+				4907E91354C8E3C5F9D46441 /* Pods-PullOverProPreferences.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C715167C225BC4000021ADB8 = {
+			isa = PBXGroup;
+			children = (
+				C7047D27238EFF28008BAA45 /* changelog.plist */,
+				C715168C225BC4000021ADB8 /* PullOverPro */,
+				C71516DD225C676A0021ADB8 /* PullOverProPreferences */,
+				C7151689225BC4000021ADB8 /* Frameworks */,
+				C7151688225BC4000021ADB8 /* Products */,
+				A412DB6D9390BD279B1251BC /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		C7151688225BC4000021ADB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7151687225BC4000021ADB8 /* PullOverPro.dylib */,
+				C71516D8225C676A0021ADB8 /* PullOverProPreferences.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7151689225BC4000021ADB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C71B3148242A9D1500515A83 /* libMobileGestalt.tbd */,
+				C7CE0D41242A9EE600564335 /* libMobileGestalt.tbd */,
+				C77E05DF229B2B5E003A59C9 /* QuartzCore.framework */,
+				C7EF5BE82295BD85007AA331 /* libEnclave.a */,
+				C7AE9E82229460CD00116C0E /* lib */,
+				C7E341E6227762CB00A7A722 /* Preferences.framework */,
+				C7A20E5F22664976007D1096 /* CoreServices.framework */,
+				C71516C1225BF14F0021ADB8 /* libapplist.dylib */,
+				C71516BA225BE3A20021ADB8 /* CoreGraphics.framework */,
+				C71516B8225BE35D0021ADB8 /* AudioToolbox.framework */,
+				C71516B2225BC7A00021ADB8 /* libsubstrate.dylib */,
+				C71516B0225BC7800021ADB8 /* UIKit.framework */,
+				C715168A225BC4000021ADB8 /* Foundation.framework */,
+				8FFA0C82E36BA8A0BD5D40C6 /* libPods-PullOverPro.a */,
+				C71516DB225C676A0021ADB8 /* Preferences.framework */,
+				F4ECA1F06C765737D9B1210C /* libPods-PullOverProPreferences.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C715168C225BC4000021ADB8 /* PullOverPro */ = {
+			isa = PBXGroup;
+			children = (
+				C72445FD22624437001E1330 /* IPC.h */,
+				C7151694225BC4000021ADB8 /* PullOverPro.xm */,
+				C7151695225BC4000021ADB8 /* PullOverPro.mm */,
+				C71516CC225C1AA40021ADB8 /* ContextHosting */,
+				C71516A4225BC5620021ADB8 /* UI */,
+				C71516C0225BF12F0021ADB8 /* Helpers */,
+				C715168D225BC4000021ADB8 /* Package */,
+				C7151691225BC4000021ADB8 /* Supporting Files */,
+			);
+			path = PullOverPro;
+			sourceTree = "<group>";
+		};
+		C715168D225BC4000021ADB8 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				C715168E225BC4000021ADB8 /* DEBIAN */,
+				C7151697225BC4000021ADB8 /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		C715168E225BC4000021ADB8 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				C715168F225BC4000021ADB8 /* control.txt */,
+				C7151690225BC4000021ADB8 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		C7151691225BC4000021ADB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7151692225BC4000021ADB8 /* PackageVersion.plist */,
+				C7151693225BC4000021ADB8 /* PullOverPro-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7151697225BC4000021ADB8 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				C7151698225BC4000021ADB8 /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		C7151698225BC4000021ADB8 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				C7151699225BC4000021ADB8 /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		C7151699225BC4000021ADB8 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				C715169A225BC4000021ADB8 /* PullOverPro.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+		C71516A4225BC5620021ADB8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C71516A0225BC55F0021ADB8 /* PullOverWindow.h */,
+				C71516A1225BC55F0021ADB8 /* PullOverWindow.m */,
+				C71516A9225BC6500021ADB8 /* PullOverViewController.h */,
+				C71516AA225BC6500021ADB8 /* PullOverViewController.m */,
+				C71516AE225BC6C00021ADB8 /* POHandle.h */,
+				C71516AD225BC6C00021ADB8 /* POHandle.m */,
+				C71516B4225BDD6A0021ADB8 /* QuickSwitchTableView.h */,
+				C71516B5225BDD6A0021ADB8 /* QuickSwitchTableView.m */,
+				C71516C4225BFEFD0021ADB8 /* QuickSwitchTableViewCell.h */,
+				C71516C5225BFEFD0021ADB8 /* QuickSwitchTableViewCell.m */,
+				C71516A5225BC62B0021ADB8 /* BaseScrollView.h */,
+				C71516A6225BC62B0021ADB8 /* BaseScrollView.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		C71516C0225BF12F0021ADB8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C71516C3225BF2350021ADB8 /* headers.h */,
+				C71516BC225BF12C0021ADB8 /* POApplicationHelper.h */,
+				C71516BD225BF12C0021ADB8 /* POApplicationHelper.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		C71516CC225C1AA40021ADB8 /* ContextHosting */ = {
+			isa = PBXGroup;
+			children = (
+				C71516C8225C1AA10021ADB8 /* ContextHostManager.h */,
+				C71516C9225C1AA10021ADB8 /* ContextHostManager.mm */,
+				C7A168DA23B126B100451FA7 /* ContextInterfaces.h */,
+			);
+			name = ContextHosting;
+			sourceTree = "<group>";
+		};
+		C71516DD225C676A0021ADB8 /* PullOverProPreferences */ = {
+			isa = PBXGroup;
+			children = (
+				C71516E5225C676A0021ADB8 /* PullOverProPreferencesController.h */,
+				C71516E7225C676A0021ADB8 /* PullOverProPreferencesController.m */,
+				C72445DF225D3743001E1330 /* QSFavoritesPickerController.h */,
+				C72445E0225D3743001E1330 /* QSFavoritesPickerController.m */,
+				C72445E3225D480B001E1330 /* POStepperTableCell.m */,
+				C774843E2496A7EF00272DB5 /* POTimeStepperTableCell.m */,
+				C7E341E82277674300A7A722 /* POScaleStepperTableCell.m */,
+				C71516DE225C676A0021ADB8 /* Package */,
+				C71516E2225C676A0021ADB8 /* Supporting Files */,
+			);
+			path = PullOverProPreferences;
+			sourceTree = "<group>";
+		};
+		C71516DE225C676A0021ADB8 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				C71516DF225C676A0021ADB8 /* DEBIAN */,
+				C71516E9225C676A0021ADB8 /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		C71516DF225C676A0021ADB8 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				C71516E0225C676A0021ADB8 /* control.txt */,
+				C71516E1225C676A0021ADB8 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		C71516E2225C676A0021ADB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C71516E3225C676A0021ADB8 /* PackageVersion.plist */,
+				C71516E4225C676A0021ADB8 /* PullOverProPreferences-Info.plist */,
+				C71516F7225C676A0021ADB8 /* PullOverProPreferences-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C71516E9225C676A0021ADB8 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				C71516EA225C676A0021ADB8 /* PreferenceLoader */,
+				C71516ED225C676A0021ADB8 /* PreferenceBundles */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		C71516EA225C676A0021ADB8 /* PreferenceLoader */ = {
+			isa = PBXGroup;
+			children = (
+				C71516EB225C676A0021ADB8 /* Preferences */,
+			);
+			name = PreferenceLoader;
+			sourceTree = "<group>";
+		};
+		C71516EB225C676A0021ADB8 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				C71516EC225C676A0021ADB8 /* PullOverProPreferences.plist */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+		C71516ED225C676A0021ADB8 /* PreferenceBundles */ = {
+			isa = PBXGroup;
+			children = (
+				C71516EE225C676A0021ADB8 /* ___PACKAGENAME___.bundle */,
+			);
+			name = PreferenceBundles;
+			sourceTree = "<group>";
+		};
+		C71516EE225C676A0021ADB8 /* ___PACKAGENAME___.bundle */ = {
+			isa = PBXGroup;
+			children = (
+				C71516EF225C676A0021ADB8 /* PullOverProPreferences.plist */,
+				C71516F0225C676A0021ADB8 /* PullOverProPreferencesIcon.png */,
+				C71516F1225C676A0021ADB8 /* PullOverProPreferencesIcon@2x.png */,
+			);
+			name = "___PACKAGENAME___.bundle";
+			sourceTree = "<group>";
+		};
+		C7AE9E82229460CD00116C0E /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				C7AE9E83229460CD00116C0E /* librocketbootstrap.dylib */,
+				C7AE9E84229460CD00116C0E /* libcolorpicker.dylib */,
+				C7AE9E85229460CD00116C0E /* libEnclave.dylib */,
+				C7AE9E86229460CD00116C0E /* libactivator.dylib */,
+				C7AE9E87229460CD00116C0E /* libpackageinfo.dylib */,
+				C7AE9E88229460CD00116C0E /* libobjcipc.dylib */,
+				C7AE9E89229460CD00116C0E /* libMobileGestalt.dylib */,
+				C7AE9E8A229460CD00116C0E /* libapplist.dylib */,
+				C7AE9E8B229460CD00116C0E /* libactionmenu.dylib */,
+				C7AE9E8C229460CD00116C0E /* libsubstrate.dylib */,
+			);
+			name = lib;
+			path = ../../../../../../../opt/iOSOpenDev/lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C7151684225BC4000021ADB8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A168DB23B126B100451FA7 /* ContextInterfaces.h in Headers */,
+				C71516BE225BF12C0021ADB8 /* POApplicationHelper.h in Headers */,
+				C71516CE225C1C700021ADB8 /* ContextHostManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71516D5225C676A0021ADB8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C72445FB225FEC04001E1330 /* POApplicationHelper.h in Headers */,
+				C71516E6225C676A0021ADB8 /* PullOverProPreferencesController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C7151686225BC4000021ADB8 /* PullOverPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C715169D225BC4000021ADB8 /* Build configuration list for PBXNativeTarget "PullOverPro" */;
+			buildPhases = (
+				E19D0A1861D994B09DD4068A /* [CP] Check Pods Manifest.lock */,
+				C7151681225BC4000021ADB8 /* ShellScript */,
+				C7151682225BC4000021ADB8 /* Sources */,
+				C7151683225BC4000021ADB8 /* Frameworks */,
+				C7151684225BC4000021ADB8 /* Headers */,
+				C7151685225BC4000021ADB8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C71516FE225C679D0021ADB8 /* PBXTargetDependency */,
+			);
+			name = PullOverPro;
+			productName = PullOverPro;
+			productReference = C7151687225BC4000021ADB8 /* PullOverPro.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		C71516D7225C676A0021ADB8 /* PullOverProPreferences */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C71516FA225C676A0021ADB8 /* Build configuration list for PBXNativeTarget "PullOverProPreferences" */;
+			buildPhases = (
+				B2EF936D4544E44D28446B81 /* [CP] Check Pods Manifest.lock */,
+				C71516D3225C676A0021ADB8 /* Sources */,
+				C71516D4225C676A0021ADB8 /* Frameworks */,
+				C71516D5225C676A0021ADB8 /* Headers */,
+				C71516D6225C676A0021ADB8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PullOverProPreferences;
+			productName = PullOverProPreferences;
+			productReference = C71516D8225C676A0021ADB8 /* PullOverProPreferences.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C715167D225BC4000021ADB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				TargetAttributes = {
+					C7151686225BC4000021ADB8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C71516D7225C676A0021ADB8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = C7151680225BC4000021ADB8 /* Build configuration list for PBXProject "PullOverPro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C715167C225BC4000021ADB8;
+			productRefGroup = C7151688225BC4000021ADB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7151686225BC4000021ADB8 /* PullOverPro */,
+				C71516D7225C676A0021ADB8 /* PullOverProPreferences */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B2EF936D4544E44D28446B81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PullOverProPreferences-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7151681225BC4000021ADB8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp $PROJECT_DIR/changelog.plist $PROJECT_DIR/$TARGET_NAME/Package/Library/Application\\ Support/$TARGET_NAME/changelog.plist\n/opt/iOSOpenDev/bin/iosod --xcbp-logos\n";
+		};
+		C7151685225BC4000021ADB8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp\n";
+		};
+		C71516D6225C676A0021ADB8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp\n";
+		};
+		E19D0A1861D994B09DD4068A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PullOverPro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7151682225BC4000021ADB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E559C7238B5FA500B70489 /* ContextHostManager.mm in Sources */,
+				C715170B225C72770021ADB8 /* POHandle.m in Sources */,
+				C71516A3225BC55F0021ADB8 /* PullOverWindow.m in Sources */,
+				C71516A8225BC62B0021ADB8 /* BaseScrollView.m in Sources */,
+				C71516BF225BF12C0021ADB8 /* POApplicationHelper.m in Sources */,
+				C71516B7225BDD6A0021ADB8 /* QuickSwitchTableView.m in Sources */,
+				C7151696225BC4000021ADB8 /* PullOverPro.mm in Sources */,
+				C71516AC225BC6500021ADB8 /* PullOverViewController.m in Sources */,
+				C71516C7225BFEFD0021ADB8 /* QuickSwitchTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71516D3225C676A0021ADB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71516E8225C676A0021ADB8 /* PullOverProPreferencesController.m in Sources */,
+				C774843F2496A7EF00272DB5 /* POTimeStepperTableCell.m in Sources */,
+				C7E341E92277674300A7A722 /* POScaleStepperTableCell.m in Sources */,
+				C72445E4225D480B001E1330 /* POStepperTableCell.m in Sources */,
+				C72445E1225D3743001E1330 /* QSFavoritesPickerController.m in Sources */,
+				C7151715225C73440021ADB8 /* POApplicationHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C71516FE225C679D0021ADB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C71516D7225C676A0021ADB8 /* PullOverProPreferences */;
+			targetProxy = C71516FD225C679D0021ADB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C715169B225BC4000021ADB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				OTHER_LDFLAGS = "$(inherited)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		C715169C225BC4000021ADB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				OTHER_LDFLAGS = "$(inherited)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		C715169E225BC4000021ADB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A55CF5F79F6C1AED786C4355 /* Pods-PullOverPro.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					arm64e,
+					arm64,
+				);
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3468JY8XJ7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PullOverPro/PullOverPro-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/PullOverPro/Package/Library/MobileSubstrate/DynamicLibraries/PullOverPro.plist";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				VALID_ARCHS = "arm64 arm64e";
+				VERSIONING_SYSTEM = "apple-generic";
+				iOSOpenDevBuildPackageOnAnyBuild = YES;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = x.local;
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = NO;
+			};
+			name = Debug;
+		};
+		C715169F225BC4000021ADB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B37C22E496A4E3DD99801C4D /* Pods-PullOverPro.release.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					arm64e,
+					arm64,
+				);
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3468JY8XJ7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PullOverPro/PullOverPro-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/PullOverPro/Package/Library/MobileSubstrate/DynamicLibraries/PullOverPro.plist";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				VALID_ARCHS = "arm64 arm64e";
+				VERSIONING_SYSTEM = "apple-generic";
+				iOSOpenDevBuildPackageOnAnyBuild = YES;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = x.local;
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = NO;
+			};
+			name = Release;
+		};
+		C71516F8225C676A0021ADB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42BB550D5737D12BE98A8F50 /* Pods-PullOverProPreferences.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					arm64e,
+					arm64,
+				);
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3468JY8XJ7;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/theos/sdks/iPhoneOS9.3.sdk/System/Library/PrivateFrameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PullOverProPreferences/PullOverProPreferences-Prefix.pch";
+				INFOPLIST_FILE = "PullOverProPreferences/PullOverProPreferences-Info.plist";
+				INSTALL_PATH = /Library/PreferenceBundles;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"L360Confetti\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				VALID_ARCHS = "arm64 arm64e";
+				VERSIONING_SYSTEM = "apple-generic";
+				WRAPPER_EXTENSION = bundle;
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = NO;
+				iOSOpenDevRespringOnInstall = NO;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		C71516F9225C676A0021ADB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4907E91354C8E3C5F9D46441 /* Pods-PullOverProPreferences.release.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					arm64e,
+					arm64,
+				);
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3468JY8XJ7;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/theos/sdks/iPhoneOS9.3.sdk/System/Library/PrivateFrameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PullOverProPreferences/PullOverProPreferences-Prefix.pch";
+				INFOPLIST_FILE = "PullOverProPreferences/PullOverProPreferences-Info.plist";
+				INSTALL_PATH = /Library/PreferenceBundles;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"L360Confetti\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				VALID_ARCHS = "arm64 arm64e";
+				VERSIONING_SYSTEM = "apple-generic";
+				WRAPPER_EXTENSION = bundle;
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = NO;
+				iOSOpenDevRespringOnInstall = NO;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7151680225BC4000021ADB8 /* Build configuration list for PBXProject "PullOverPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C715169B225BC4000021ADB8 /* Debug */,
+				C715169C225BC4000021ADB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C715169D225BC4000021ADB8 /* Build configuration list for PBXNativeTarget "PullOverPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C715169E225BC4000021ADB8 /* Debug */,
+				C715169F225BC4000021ADB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C71516FA225C676A0021ADB8 /* Build configuration list for PBXNativeTarget "PullOverProPreferences" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C71516F8225C676A0021ADB8 /* Debug */,
+				C71516F9225C676A0021ADB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C715167D225BC4000021ADB8 /* Project object */;
+}

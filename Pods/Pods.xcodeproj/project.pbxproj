@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23E11B6734F67065DF5988DCE4269432 /* L360ConfettiView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9580703689155212F1577EAC0B8FAFB5 /* L360ConfettiView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4E13FFE963FD733DD94D98CA4F31123A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E538F0B835A53761AF5FF2D2D75573E8 /* UIKit.framework */; };
+		55857CDE2EA60DC2336FE881CAAFD98B /* L360ConfettiObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BE652E3B8C261ABA7AB1AC61EB65B752 /* L360ConfettiObject.m */; };
+		6963CABF093BD88EF875DFC3C22C86DC /* L360Confetti-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 194C062BEBC9EDE3CB945378A2FA18A9 /* L360Confetti-dummy.m */; };
+		76CD7EDEA92A78180BB7C29C8F520CA0 /* L360ConfettiAble.h in Headers */ = {isa = PBXBuildFile; fileRef = A1914442E8439BA77E7FAF8F379295A9 /* L360ConfettiAble.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8B6956C1CC33ACB7F0295C019577B5BF /* Pods-PullOverPro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 610B34C2713B93C77A2C64661D05AF12 /* Pods-PullOverPro-dummy.m */; };
+		8D43A68DAF7547FDCDE7D00677AC32D6 /* L360ConfettiView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBAF3A2D570696AE679894228236CE5 /* L360ConfettiView.m */; };
+		8D736931773F1E88A1882F7B513C3345 /* L360ConfettiArea.h in Headers */ = {isa = PBXBuildFile; fileRef = C8207216CC4D52C1ABC00CF86FFD953D /* L360ConfettiArea.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AC8108B7C4172992A1160D5F094E3736 /* Pods-PullOverProPreferences-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 563DE72E7860249E5E4EA7B09A395405 /* Pods-PullOverProPreferences-dummy.m */; };
+		BE366A577C5B5D19984DD834A1142D07 /* L360ConfettiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B611E9EAB8718BF04A4CBB125A76E96B /* L360ConfettiObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F8207CE696DE2314592C72860C02C96C /* L360ConfettiArea.m in Sources */ = {isa = PBXBuildFile; fileRef = F24930A24268D9E3D20603C989341048 /* L360ConfettiArea.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE3ADCCB83C9ABB731478DAC8E5843C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15F7600B1DFCE1558B838FAE2F3D45F0;
+			remoteInfo = L360Confetti;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08EA9771A132E8E3269FF6AA5AF28EB1 /* libL360Confetti.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libL360Confetti.a; path = libL360Confetti.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		194C062BEBC9EDE3CB945378A2FA18A9 /* L360Confetti-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "L360Confetti-dummy.m"; sourceTree = "<group>"; };
+		1B5AEAF9592DEDFF2B3D650BBA0C8742 /* Pods-PullOverPro-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PullOverPro-acknowledgements.plist"; sourceTree = "<group>"; };
+		4A04B5B9C005CD89E20C0FCA7544D1B2 /* Pods-PullOverPro-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PullOverPro-frameworks.sh"; sourceTree = "<group>"; };
+		563DE72E7860249E5E4EA7B09A395405 /* Pods-PullOverProPreferences-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PullOverProPreferences-dummy.m"; sourceTree = "<group>"; };
+		610B34C2713B93C77A2C64661D05AF12 /* Pods-PullOverPro-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PullOverPro-dummy.m"; sourceTree = "<group>"; };
+		75D3BF9ABAB52C6C538D33820C8AD5B0 /* Pods-PullOverPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PullOverPro.debug.xcconfig"; sourceTree = "<group>"; };
+		770C43DD4D9FDE8E81F2D97877CE817E /* Pods-PullOverPro-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PullOverPro-resources.sh"; sourceTree = "<group>"; };
+		7D44D2E03B281822F1B11537C8883D0D /* Pods-PullOverProPreferences.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PullOverProPreferences.debug.xcconfig"; sourceTree = "<group>"; };
+		7E0808C48FAE8EDF4B9099E36EBF2B4C /* Pods-PullOverPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PullOverPro.release.xcconfig"; sourceTree = "<group>"; };
+		850721CBD6B0859660BE2198D6147418 /* libPods-PullOverProPreferences.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PullOverProPreferences.a"; path = "libPods-PullOverProPreferences.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AFB8840132E8E06EDC803E41543586D /* Pods-PullOverProPreferences-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PullOverProPreferences-acknowledgements.plist"; sourceTree = "<group>"; };
+		8BA526593C155470F305BF24C3D2ED4C /* L360Confetti.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = L360Confetti.xcconfig; sourceTree = "<group>"; };
+		8DCB1294565B9F5809C671A8BB6C485F /* Pods-PullOverProPreferences.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PullOverProPreferences.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9580703689155212F1577EAC0B8FAFB5 /* L360ConfettiView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = L360ConfettiView.h; path = iOS/L360Confetti/L360ConfettiView.h; sourceTree = "<group>"; };
+		A1914442E8439BA77E7FAF8F379295A9 /* L360ConfettiAble.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = L360ConfettiAble.h; path = iOS/L360Confetti/L360ConfettiAble.h; sourceTree = "<group>"; };
+		A63B5E19BA7109CEAA9A6A115223D8FA /* L360Confetti-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "L360Confetti-prefix.pch"; sourceTree = "<group>"; };
+		AFC4D48CAE499C023EC6450D8B8E439B /* Pods-PullOverProPreferences-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PullOverProPreferences-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B00BB0A25D7809C2049CBD9298DDFFD8 /* Pods-PullOverProPreferences-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PullOverProPreferences-frameworks.sh"; sourceTree = "<group>"; };
+		B611E9EAB8718BF04A4CBB125A76E96B /* L360ConfettiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = L360ConfettiObject.h; path = iOS/L360Confetti/L360ConfettiObject.h; sourceTree = "<group>"; };
+		BE652E3B8C261ABA7AB1AC61EB65B752 /* L360ConfettiObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = L360ConfettiObject.m; path = iOS/L360Confetti/L360ConfettiObject.m; sourceTree = "<group>"; };
+		C8207216CC4D52C1ABC00CF86FFD953D /* L360ConfettiArea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = L360ConfettiArea.h; path = iOS/L360Confetti/L360ConfettiArea.h; sourceTree = "<group>"; };
+		CE913900FFDEF2DCBFF0D22F9667A69D /* Pods-PullOverPro-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PullOverPro-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DFBAF3A2D570696AE679894228236CE5 /* L360ConfettiView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = L360ConfettiView.m; path = iOS/L360Confetti/L360ConfettiView.m; sourceTree = "<group>"; };
+		E538F0B835A53761AF5FF2D2D75573E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F24930A24268D9E3D20603C989341048 /* L360ConfettiArea.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = L360ConfettiArea.m; path = iOS/L360Confetti/L360ConfettiArea.m; sourceTree = "<group>"; };
+		FA983BB0BCB4F21F5CF8194C30649C0E /* libPods-PullOverPro.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PullOverPro.a"; path = "libPods-PullOverPro.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC11A571134EFC97B60AB4DEA674ED79 /* Pods-PullOverProPreferences-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PullOverProPreferences-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06A82DA9B3BCA3151AE565D2F7B5FBDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E13FFE963FD733DD94D98CA4F31123A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E18B25C2EBCBDBEE8977DA1DFE36BCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		401A5235937B0EC8215117197B2E0371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E649EAB6EA4A468D95BD72197919FE0 /* Pods-PullOverProPreferences */ = {
+			isa = PBXGroup;
+			children = (
+				AFC4D48CAE499C023EC6450D8B8E439B /* Pods-PullOverProPreferences-acknowledgements.markdown */,
+				8AFB8840132E8E06EDC803E41543586D /* Pods-PullOverProPreferences-acknowledgements.plist */,
+				563DE72E7860249E5E4EA7B09A395405 /* Pods-PullOverProPreferences-dummy.m */,
+				B00BB0A25D7809C2049CBD9298DDFFD8 /* Pods-PullOverProPreferences-frameworks.sh */,
+				FC11A571134EFC97B60AB4DEA674ED79 /* Pods-PullOverProPreferences-resources.sh */,
+				7D44D2E03B281822F1B11537C8883D0D /* Pods-PullOverProPreferences.debug.xcconfig */,
+				8DCB1294565B9F5809C671A8BB6C485F /* Pods-PullOverProPreferences.release.xcconfig */,
+			);
+			name = "Pods-PullOverProPreferences";
+			path = "Target Support Files/Pods-PullOverProPreferences";
+			sourceTree = "<group>";
+		};
+		439617EAFCB50E7C1F770414D2834329 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E538F0B835A53761AF5FF2D2D75573E8 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BD9BE43A48675EF08DEF540C833B3B76 /* Pods */,
+				9BAB211AFEFA9E6BA5C770A604E65CDB /* Products */,
+				F7840AC4DCE6D646613BE0D9F975B543 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8CCA5406C0522BE9453100E0C157B714 /* Pods-PullOverPro */ = {
+			isa = PBXGroup;
+			children = (
+				CE913900FFDEF2DCBFF0D22F9667A69D /* Pods-PullOverPro-acknowledgements.markdown */,
+				1B5AEAF9592DEDFF2B3D650BBA0C8742 /* Pods-PullOverPro-acknowledgements.plist */,
+				610B34C2713B93C77A2C64661D05AF12 /* Pods-PullOverPro-dummy.m */,
+				4A04B5B9C005CD89E20C0FCA7544D1B2 /* Pods-PullOverPro-frameworks.sh */,
+				770C43DD4D9FDE8E81F2D97877CE817E /* Pods-PullOverPro-resources.sh */,
+				75D3BF9ABAB52C6C538D33820C8AD5B0 /* Pods-PullOverPro.debug.xcconfig */,
+				7E0808C48FAE8EDF4B9099E36EBF2B4C /* Pods-PullOverPro.release.xcconfig */,
+			);
+			name = "Pods-PullOverPro";
+			path = "Target Support Files/Pods-PullOverPro";
+			sourceTree = "<group>";
+		};
+		9BAB211AFEFA9E6BA5C770A604E65CDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08EA9771A132E8E3269FF6AA5AF28EB1 /* libL360Confetti.a */,
+				FA983BB0BCB4F21F5CF8194C30649C0E /* libPods-PullOverPro.a */,
+				850721CBD6B0859660BE2198D6147418 /* libPods-PullOverProPreferences.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				439617EAFCB50E7C1F770414D2834329 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD9BE43A48675EF08DEF540C833B3B76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6E9899E7D2AFBC253C0103846FAC64F /* L360Confetti */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D09527AB65F03D12E7FC97D68558203D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BA526593C155470F305BF24C3D2ED4C /* L360Confetti.xcconfig */,
+				194C062BEBC9EDE3CB945378A2FA18A9 /* L360Confetti-dummy.m */,
+				A63B5E19BA7109CEAA9A6A115223D8FA /* L360Confetti-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/L360Confetti";
+			sourceTree = "<group>";
+		};
+		D6E9899E7D2AFBC253C0103846FAC64F /* L360Confetti */ = {
+			isa = PBXGroup;
+			children = (
+				A1914442E8439BA77E7FAF8F379295A9 /* L360ConfettiAble.h */,
+				C8207216CC4D52C1ABC00CF86FFD953D /* L360ConfettiArea.h */,
+				F24930A24268D9E3D20603C989341048 /* L360ConfettiArea.m */,
+				B611E9EAB8718BF04A4CBB125A76E96B /* L360ConfettiObject.h */,
+				BE652E3B8C261ABA7AB1AC61EB65B752 /* L360ConfettiObject.m */,
+				9580703689155212F1577EAC0B8FAFB5 /* L360ConfettiView.h */,
+				DFBAF3A2D570696AE679894228236CE5 /* L360ConfettiView.m */,
+				D09527AB65F03D12E7FC97D68558203D /* Support Files */,
+			);
+			name = L360Confetti;
+			path = L360Confetti;
+			sourceTree = "<group>";
+		};
+		F7840AC4DCE6D646613BE0D9F975B543 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CCA5406C0522BE9453100E0C157B714 /* Pods-PullOverPro */,
+				3E649EAB6EA4A468D95BD72197919FE0 /* Pods-PullOverProPreferences */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2A03B9F6DF73357AC566B34CF5E95A4D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76CD7EDEA92A78180BB7C29C8F520CA0 /* L360ConfettiAble.h in Headers */,
+				8D736931773F1E88A1882F7B513C3345 /* L360ConfettiArea.h in Headers */,
+				BE366A577C5B5D19984DD834A1142D07 /* L360ConfettiObject.h in Headers */,
+				23E11B6734F67065DF5988DCE4269432 /* L360ConfettiView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F2279712CEFEC24DF2429EEF4A9E6B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BE5AB80019D04D277EC2E8549F7BA04 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0667EAF310253FD229A90525584B41DA /* Pods-PullOverPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BECD1A7F4E11EC61998541D300936081 /* Build configuration list for PBXNativeTarget "Pods-PullOverPro" */;
+			buildPhases = (
+				79F2279712CEFEC24DF2429EEF4A9E6B /* Headers */,
+				3BA97947DB1BC6E15609EEB2DF36EFDD /* Sources */,
+				1E18B25C2EBCBDBEE8977DA1DFE36BCC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PullOverPro";
+			productName = "Pods-PullOverPro";
+			productReference = FA983BB0BCB4F21F5CF8194C30649C0E /* libPods-PullOverPro.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		15F7600B1DFCE1558B838FAE2F3D45F0 /* L360Confetti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CCDA835E0F4D5D2261D14352ECDED94 /* Build configuration list for PBXNativeTarget "L360Confetti" */;
+			buildPhases = (
+				2A03B9F6DF73357AC566B34CF5E95A4D /* Headers */,
+				86767221DFAB2433552497A3C90D13C5 /* Sources */,
+				06A82DA9B3BCA3151AE565D2F7B5FBDE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = L360Confetti;
+			productName = L360Confetti;
+			productReference = 08EA9771A132E8E3269FF6AA5AF28EB1 /* libL360Confetti.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7A8564513EF8ED8E58372C2D6861F5E0 /* Pods-PullOverProPreferences */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A9EC64B4614B851539F64C1396641F /* Build configuration list for PBXNativeTarget "Pods-PullOverProPreferences" */;
+			buildPhases = (
+				7BE5AB80019D04D277EC2E8549F7BA04 /* Headers */,
+				7CE19FF1E742989064372BA187125594 /* Sources */,
+				401A5235937B0EC8215117197B2E0371 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC50047283531E43CECEA9D5FB40176D /* PBXTargetDependency */,
+			);
+			name = "Pods-PullOverProPreferences";
+			productName = "Pods-PullOverProPreferences";
+			productReference = 850721CBD6B0859660BE2198D6147418 /* libPods-PullOverProPreferences.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9BAB211AFEFA9E6BA5C770A604E65CDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15F7600B1DFCE1558B838FAE2F3D45F0 /* L360Confetti */,
+				0667EAF310253FD229A90525584B41DA /* Pods-PullOverPro */,
+				7A8564513EF8ED8E58372C2D6861F5E0 /* Pods-PullOverProPreferences */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BA97947DB1BC6E15609EEB2DF36EFDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B6956C1CC33ACB7F0295C019577B5BF /* Pods-PullOverPro-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CE19FF1E742989064372BA187125594 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8108B7C4172992A1160D5F094E3736 /* Pods-PullOverProPreferences-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86767221DFAB2433552497A3C90D13C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6963CABF093BD88EF875DFC3C22C86DC /* L360Confetti-dummy.m in Sources */,
+				F8207CE696DE2314592C72860C02C96C /* L360ConfettiArea.m in Sources */,
+				55857CDE2EA60DC2336FE881CAAFD98B /* L360ConfettiObject.m in Sources */,
+				8D43A68DAF7547FDCDE7D00677AC32D6 /* L360ConfettiView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC50047283531E43CECEA9D5FB40176D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = L360Confetti;
+			target = 15F7600B1DFCE1558B838FAE2F3D45F0 /* L360Confetti */;
+			targetProxy = AE3ADCCB83C9ABB731478DAC8E5843C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B07E34E8F07A0216369CF5F533B8737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BA526593C155470F305BF24C3D2ED4C /* L360Confetti.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					arm64,
+					arm64e,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/L360Confetti/L360Confetti-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = L360Confetti;
+				PRODUCT_NAME = L360Confetti;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FD24E77FAB27470476F08F3ACB6E608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BA526593C155470F305BF24C3D2ED4C /* L360Confetti.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					arm64,
+					arm64e,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/L360Confetti/L360Confetti-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = L360Confetti;
+				PRODUCT_NAME = L360Confetti;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		701AB9A9ADC5C1458E7D95E73C5725C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E0808C48FAE8EDF4B9099E36EBF2B4C /* Pods-PullOverPro.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = (
+					arm64,
+					arm64e,
+				);
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AE7E566E01CAD8F4A4935E81AF08117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D44D2E03B281822F1B11537C8883D0D /* Pods-PullOverProPreferences.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = (
+					arm64,
+					arm64e,
+				);
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DDFA5FA8D4131BFD96E5E26F3672644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9DB3066E91B0E2537A6C28A15A805FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DCB1294565B9F5809C671A8BB6C485F /* Pods-PullOverProPreferences.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = (
+					arm64,
+					arm64e,
+				);
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9C34012325E27E1511F8BA6F1873F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75D3BF9ABAB52C6C538D33820C8AD5B0 /* Pods-PullOverPro.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = (
+					arm64,
+					arm64e,
+				);
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5F759C82752B2EB010DB3CD3D69707C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00A9EC64B4614B851539F64C1396641F /* Build configuration list for PBXNativeTarget "Pods-PullOverProPreferences" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AE7E566E01CAD8F4A4935E81AF08117 /* Debug */,
+				9DB3066E91B0E2537A6C28A15A805FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DDFA5FA8D4131BFD96E5E26F3672644 /* Debug */,
+				D5F759C82752B2EB010DB3CD3D69707C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CCDA835E0F4D5D2261D14352ECDED94 /* Build configuration list for PBXNativeTarget "L360Confetti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B07E34E8F07A0216369CF5F533B8737 /* Debug */,
+				4FD24E77FAB27470476F08F3ACB6E608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BECD1A7F4E11EC61998541D300936081 /* Build configuration list for PBXNativeTarget "Pods-PullOverPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C34012325E27E1511F8BA6F1873F86 /* Debug */,
+				701AB9A9ADC5C1458E7D95E73C5725C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
